@@ -1,0 +1,37 @@
+node_modules/
+
+# Frontend
+frontend/.next/
+frontend/out/
+frontend/next-env.d.ts
+
+# Backend
+backend/dist/
+
+# Env files
+.env
+.env.local
+.env.*.local
+frontend/.env.local
+backend/.env
+
+# Logs and local tooling
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+__MACOSX/
+._*
+.agents/
+.codex/
+
+# Temporary VIN inspection helpers
+vin-contact-*.jpg
+vin-crop-*.jpg
+
+# Duplicate VIN image exports; v2 is the committed demo set.
+assests/poc-vin-images/
+assests/poc-vin-images-20260712T202126Z-2-001/

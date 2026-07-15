@@ -1,0 +1,557 @@
+{
+  "records": [
+    {
+      "vin": "VF1RFD00067891234",
+      "vehicles": [
+        {
+          "id": 100001,
+          "manufacturerId": 93,
+          "manufacturerName": "RENAULT",
+          "modelSeriesId": 41001,
+          "modelSeriesName": "CLIO IV",
+          "description": "0.9 TCe 90",
+          "beginYearMonth": "2012-11",
+          "endYearMonth": "2019-12",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Hatchback",
+          "fuelType": "Petrol",
+          "engineType": "Petrol Engine",
+          "horsePowerFrom": 90,
+          "horsePowerTo": 90,
+          "kiloWattsFrom": 66,
+          "kiloWattsTo": 66,
+          "capacityCC": 898,
+          "capacityLiters": 0.9,
+          "market": "France",
+          "engines": [{ "id": 30101, "code": "H4B 408" }],
+          "productProfileId": "european-compact-petrol"
+        },
+        {
+          "id": 100002,
+          "manufacturerId": 93,
+          "manufacturerName": "RENAULT",
+          "modelSeriesId": 41001,
+          "modelSeriesName": "CLIO IV",
+          "description": "1.5 dCi 90",
+          "beginYearMonth": "2012-11",
+          "endYearMonth": "2019-12",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Hatchback",
+          "fuelType": "Diesel",
+          "engineType": "Diesel",
+          "horsePowerFrom": 90,
+          "horsePowerTo": 90,
+          "kiloWattsFrom": 66,
+          "kiloWattsTo": 66,
+          "capacityCC": 1461,
+          "capacityLiters": 1.5,
+          "market": "France",
+          "engines": [{ "id": 30102, "code": "K9K 608" }],
+          "productProfileId": "european-compact-diesel"
+        }
+      ]
+    },
+    {
+      "vin": "VF1LM000H57412836",
+      "vehicles": [
+        {
+          "id": 100010,
+          "manufacturerId": 93,
+          "manufacturerName": "RENAULT",
+          "modelSeriesId": 41010,
+          "modelSeriesName": "MEGANE IV",
+          "description": "1.6 dCi 130",
+          "beginYearMonth": "2015-11",
+          "endYearMonth": "2021-08",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Hatchback",
+          "fuelType": "Diesel",
+          "engineType": "Diesel",
+          "horsePowerFrom": 130,
+          "horsePowerTo": 130,
+          "kiloWattsFrom": 96,
+          "kiloWattsTo": 96,
+          "capacityCC": 1598,
+          "capacityLiters": 1.6,
+          "market": "France",
+          "engines": [{ "id": 30110, "code": "R9M 409" }],
+          "productProfileId": "european-compact-diesel"
+        },
+        {
+          "id": 100011,
+          "manufacturerId": 93,
+          "manufacturerName": "RENAULT",
+          "modelSeriesId": 41010,
+          "modelSeriesName": "MEGANE IV",
+          "description": "1.3 TCe 140",
+          "beginYearMonth": "2018-01",
+          "endYearMonth": "2021-08",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Hatchback",
+          "fuelType": "Petrol",
+          "engineType": "Petrol Engine",
+          "horsePowerFrom": 140,
+          "horsePowerTo": 140,
+          "kiloWattsFrom": 103,
+          "kiloWattsTo": 103,
+          "capacityCC": 1332,
+          "capacityLiters": 1.3,
+          "market": "France",
+          "engines": [{ "id": 30111, "code": "H5H 470" }],
+          "productProfileId": "european-compact-petrol"
+        }
+      ]
+    },
+    {
+      "vin": "VF3CAHMMXJT029547",
+      "vehicles": [
+        {
+          "id": 100020,
+          "manufacturerId": 88,
+          "manufacturerName": "PEUGEOT",
+          "modelSeriesId": 41020,
+          "modelSeriesName": "308 II",
+          "description": "1.2 PureTech 130",
+          "beginYearMonth": "2013-09",
+          "endYearMonth": "2021-06",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Hatchback",
+          "fuelType": "Petrol",
+          "engineType": "Petrol Engine",
+          "horsePowerFrom": 130,
+          "horsePowerTo": 130,
+          "kiloWattsFrom": 96,
+          "kiloWattsTo": 96,
+          "capacityCC": 1199,
+          "capacityLiters": 1.2,
+          "market": "France",
+          "engines": [{ "id": 30201, "code": "HN02" }],
+          "productProfileId": "european-compact-petrol"
+        }
+      ]
+    },
+    {
+      "vin": "VF77DHNXPKJ058312",
+      "vehicles": [
+        {
+          "id": 100030,
+          "manufacturerId": 21,
+          "manufacturerName": "CITROEN",
+          "modelSeriesId": 41030,
+          "modelSeriesName": "C3 III",
+          "description": "1.2 PureTech 82",
+          "beginYearMonth": "2016-07",
+          "endYearMonth": "2024-04",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Hatchback",
+          "fuelType": "Petrol",
+          "engineType": "Petrol Engine",
+          "horsePowerFrom": 82,
+          "horsePowerTo": 82,
+          "kiloWattsFrom": 60,
+          "kiloWattsTo": 60,
+          "capacityCC": 1199,
+          "capacityLiters": 1.2,
+          "market": "France",
+          "engines": [{ "id": 30301, "code": "HMZ" }],
+          "productProfileId": "european-compact-petrol"
+        }
+      ]
+    },
+    {
+      "vin": "VSSZZZ5FZMR064521",
+      "vehicles": [
+        {
+          "id": 100040,
+          "manufacturerId": 104,
+          "manufacturerName": "SEAT",
+          "modelSeriesId": 41040,
+          "modelSeriesName": "LEON III",
+          "description": "1.5 TSI 150",
+          "beginYearMonth": "2018-09",
+          "endYearMonth": "2020-12",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Hatchback",
+          "fuelType": "Petrol",
+          "engineType": "Petrol Engine",
+          "horsePowerFrom": 150,
+          "horsePowerTo": 150,
+          "kiloWattsFrom": 110,
+          "kiloWattsTo": 110,
+          "capacityCC": 1498,
+          "capacityLiters": 1.5,
+          "market": "Spain",
+          "engines": [{ "id": 30401, "code": "DADA" }],
+          "productProfileId": "european-compact-petrol"
+        }
+      ]
+    },
+    {
+      "vin": "WVWZZZ3CZPE024893",
+      "vehicles": [
+        {
+          "id": 100050,
+          "manufacturerId": 121,
+          "manufacturerName": "VOLKSWAGEN",
+          "modelSeriesId": 41050,
+          "modelSeriesName": "GOLF VIII",
+          "description": "1.5 eTSI 150",
+          "beginYearMonth": "2020-01",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Hatchback",
+          "fuelType": "Petrol",
+          "engineType": "Mild Hybrid Petrol",
+          "horsePowerFrom": 150,
+          "horsePowerTo": 150,
+          "kiloWattsFrom": 110,
+          "kiloWattsTo": 110,
+          "capacityCC": 1498,
+          "capacityLiters": 1.5,
+          "market": "Spain",
+          "engines": [{ "id": 30501, "code": "DFYA" }],
+          "productProfileId": "european-compact-petrol"
+        },
+        {
+          "id": 100051,
+          "manufacturerId": 121,
+          "manufacturerName": "VOLKSWAGEN",
+          "modelSeriesId": 41050,
+          "modelSeriesName": "GOLF VIII",
+          "description": "2.0 TDI 150",
+          "beginYearMonth": "2019-12",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Hatchback",
+          "fuelType": "Diesel",
+          "engineType": "Diesel",
+          "horsePowerFrom": 150,
+          "horsePowerTo": 150,
+          "kiloWattsFrom": 110,
+          "kiloWattsTo": 110,
+          "capacityCC": 1968,
+          "capacityLiters": 2,
+          "market": "Spain",
+          "engines": [{ "id": 30502, "code": "DSUD" }],
+          "productProfileId": "european-compact-diesel"
+        }
+      ]
+    },
+    {
+      "vin": "NMTKHM3M4JR023654",
+      "vehicles": [
+        {
+          "id": 100060,
+          "manufacturerId": 111,
+          "manufacturerName": "TOYOTA",
+          "modelSeriesId": 41060,
+          "modelSeriesName": "COROLLA XII",
+          "description": "1.8 Hybrid",
+          "beginYearMonth": "2018-10",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Saloon",
+          "fuelType": "Petrol/Electric",
+          "engineType": "Hybrid",
+          "horsePowerFrom": 122,
+          "horsePowerTo": 122,
+          "kiloWattsFrom": 90,
+          "kiloWattsTo": 90,
+          "capacityCC": 1798,
+          "capacityLiters": 1.8,
+          "market": "Turkey",
+          "engines": [{ "id": 30601, "code": "2ZR-FXE" }],
+          "productProfileId": "hybrid-compact"
+        }
+      ]
+    },
+    {
+      "vin": "ZFA31200006845712",
+      "vehicles": [
+        {
+          "id": 100080,
+          "manufacturerId": 35,
+          "manufacturerName": "FIAT",
+          "modelSeriesId": 41080,
+          "modelSeriesName": "EGEA / TIPO",
+          "description": "1.6 MultiJet 120",
+          "beginYearMonth": "2015-10",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Saloon",
+          "fuelType": "Diesel",
+          "engineType": "Diesel",
+          "horsePowerFrom": 120,
+          "horsePowerTo": 120,
+          "kiloWattsFrom": 88,
+          "kiloWattsTo": 88,
+          "capacityCC": 1598,
+          "capacityLiters": 1.6,
+          "market": "Turkey",
+          "engines": [{ "id": 30801, "code": "552 80 444" }],
+          "productProfileId": "european-compact-diesel"
+        }
+      ]
+    },
+    {
+      "vin": "W0L000000N4123456",
+      "vehicles": [
+        {
+          "id": 100090,
+          "manufacturerId": 120,
+          "manufacturerName": "VAUXHALL",
+          "modelSeriesId": 41090,
+          "modelSeriesName": "ASTRA K",
+          "description": "1.4 Turbo 150",
+          "beginYearMonth": "2015-09",
+          "endYearMonth": "2021-11",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Hatchback",
+          "fuelType": "Petrol",
+          "engineType": "Petrol Engine",
+          "horsePowerFrom": 150,
+          "horsePowerTo": 150,
+          "kiloWattsFrom": 110,
+          "kiloWattsTo": 110,
+          "capacityCC": 1399,
+          "capacityLiters": 1.4,
+          "market": "United Kingdom",
+          "engines": [{ "id": 30901, "code": "B14XFT" }],
+          "productProfileId": "european-compact-petrol"
+        }
+      ]
+    },
+    {
+      "vin": "MA3ERLF1S00123456",
+      "vehicles": [
+        {
+          "id": 100100,
+          "manufacturerId": 210,
+          "manufacturerName": "MARUTI SUZUKI",
+          "modelSeriesId": 41100,
+          "modelSeriesName": "SWIFT IV",
+          "description": "1.2 Dualjet",
+          "beginYearMonth": "2021-02",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "Hatchback",
+          "fuelType": "Petrol",
+          "engineType": "Petrol Engine",
+          "horsePowerFrom": 90,
+          "horsePowerTo": 90,
+          "kiloWattsFrom": 66,
+          "kiloWattsTo": 66,
+          "capacityCC": 1197,
+          "capacityLiters": 1.2,
+          "market": "India",
+          "engines": [{ "id": 31001, "code": "K12N" }],
+          "productProfileId": "india-compact"
+        }
+      ]
+    },
+    {
+      "vin": "MALA351RAPS102847",
+      "vehicles": [
+        {
+          "id": 100110,
+          "manufacturerId": 183,
+          "manufacturerName": "HYUNDAI",
+          "modelSeriesId": 41110,
+          "modelSeriesName": "CRETA II",
+          "description": "1.5 CRDi",
+          "beginYearMonth": "2020-03",
+          "driveType": "Front-Wheel Drive",
+          "bodyStyle": "SUV",
+          "fuelType": "Diesel",
+          "engineType": "Diesel",
+          "horsePowerFrom": 115,
+          "horsePowerTo": 115,
+          "kiloWattsFrom": 85,
+          "kiloWattsTo": 85,
+          "capacityCC": 1493,
+          "capacityLiters": 1.5,
+          "market": "India",
+          "engines": [{ "id": 31101, "code": "D4FA" }],
+          "productProfileId": "india-compact"
+        }
+      ]
+    }
+  ],
+  "productProfiles": {
+    "european-compact-petrol": {
+      "lineOfBusinesses": [
+        {
+          "id": 100006,
+          "name": "Braking System",
+          "type": "P",
+          "childrenCount": 3,
+          "articlesCount": 46
+        },
+        {
+          "id": 100010,
+          "name": "Electrics",
+          "type": "P",
+          "childrenCount": 5,
+          "articlesCount": 32
+        },
+        {
+          "id": 100005,
+          "name": "Filters",
+          "type": "P",
+          "childrenCount": 3,
+          "articlesCount": 9
+        },
+        {
+          "id": 100007,
+          "name": "Cooling System",
+          "type": "P",
+          "childrenCount": 4,
+          "articlesCount": 14
+        },
+        {
+          "id": 100018,
+          "name": "Window Cleaning",
+          "type": "P",
+          "childrenCount": 2,
+          "articlesCount": 10
+        }
+      ],
+      "enableMissingPartForm": false,
+      "enableMissingPartFormFailed": false,
+      "productsGroup": [
+        { "id": 402, "description": "Brake Pad Set, disc brake", "articlesCount": 16 },
+        { "id": 82, "description": "Brake Disc", "articlesCount": 6 },
+        { "id": 424, "description": "Filter, cabin air", "articlesCount": 5 },
+        { "id": 8, "description": "Air Filter", "articlesCount": 2 },
+        { "id": 470, "description": "Radiator, engine cooling", "articlesCount": 1 },
+        { "id": 298, "description": "Wiper Blade", "articlesCount": 9 }
+      ]
+    },
+    "european-compact-diesel": {
+      "lineOfBusinesses": [
+        {
+          "id": 100006,
+          "name": "Braking System",
+          "type": "P",
+          "childrenCount": 3,
+          "articlesCount": 42
+        },
+        {
+          "id": 100002,
+          "name": "Engine",
+          "type": "P",
+          "childrenCount": 3,
+          "articlesCount": 18
+        },
+        {
+          "id": 100005,
+          "name": "Filters",
+          "type": "P",
+          "childrenCount": 4,
+          "articlesCount": 14
+        },
+        {
+          "id": 100007,
+          "name": "Cooling System",
+          "type": "P",
+          "childrenCount": 5,
+          "articlesCount": 16
+        },
+        {
+          "id": 100019,
+          "name": "Maintenance Service Parts",
+          "type": "P",
+          "childrenCount": 2,
+          "articlesCount": 28
+        }
+      ],
+      "enableMissingPartForm": false,
+      "enableMissingPartFormFailed": false,
+      "productsGroup": [
+        { "id": 7, "description": "Oil Filter", "articlesCount": 2 },
+        { "id": 8, "description": "Air Filter", "articlesCount": 2 },
+        { "id": 424, "description": "Filter, cabin air", "articlesCount": 5 },
+        { "id": 402, "description": "Brake Pad Set, disc brake", "articlesCount": 14 },
+        { "id": 82, "description": "Brake Disc", "articlesCount": 6 },
+        { "id": 508, "description": "Fan, engine cooling", "articlesCount": 1 }
+      ]
+    },
+    "hybrid-compact": {
+      "lineOfBusinesses": [
+        {
+          "id": 100006,
+          "name": "Braking System",
+          "type": "P",
+          "childrenCount": 3,
+          "articlesCount": 20
+        },
+        {
+          "id": 100010,
+          "name": "Electrics",
+          "type": "P",
+          "childrenCount": 5,
+          "articlesCount": 38
+        },
+        {
+          "id": 100005,
+          "name": "Filters",
+          "type": "P",
+          "childrenCount": 3,
+          "articlesCount": 8
+        },
+        {
+          "id": 100019,
+          "name": "Maintenance Service Parts",
+          "type": "P",
+          "childrenCount": 2,
+          "articlesCount": 24
+        }
+      ],
+      "enableMissingPartForm": false,
+      "enableMissingPartFormFailed": false,
+      "productsGroup": [
+        { "id": 402, "description": "Brake Pad Set, disc brake", "articlesCount": 10 },
+        { "id": 82, "description": "Brake Disc", "articlesCount": 4 },
+        { "id": 424, "description": "Filter, cabin air", "articlesCount": 4 },
+        { "id": 298, "description": "Wiper Blade", "articlesCount": 6 },
+        { "id": 689, "description": "Ignition Coil", "articlesCount": 1 }
+      ]
+    },
+    "india-compact": {
+      "lineOfBusinesses": [
+        {
+          "id": 100006,
+          "name": "Braking System",
+          "type": "P",
+          "childrenCount": 3,
+          "articlesCount": 18
+        },
+        {
+          "id": 100005,
+          "name": "Filters",
+          "type": "P",
+          "childrenCount": 3,
+          "articlesCount": 11
+        },
+        {
+          "id": 100007,
+          "name": "Cooling System",
+          "type": "P",
+          "childrenCount": 4,
+          "articlesCount": 9
+        },
+        {
+          "id": 100018,
+          "name": "Window Cleaning",
+          "type": "P",
+          "childrenCount": 2,
+          "articlesCount": 7
+        }
+      ],
+      "enableMissingPartForm": false,
+      "enableMissingPartFormFailed": false,
+      "productsGroup": [
+        { "id": 402, "description": "Brake Pad Set, disc brake", "articlesCount": 8 },
+        { "id": 82, "description": "Brake Disc", "articlesCount": 3 },
+        { "id": 424, "description": "Filter, cabin air", "articlesCount": 4 },
+        { "id": 8, "description": "Air Filter", "articlesCount": 3 },
+        { "id": 298, "description": "Wiper Blade", "articlesCount": 6 }
+      ]
+    }
+  }
+}
