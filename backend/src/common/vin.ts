@@ -9,11 +9,15 @@ export function normalizeVin(value: string): string {
 export function assertValidVin(value: string): string {
   const normalizedVin = normalizeVin(value);
 
-  if (!VIN_PATTERN.test(normalizedVin)) {
+  if (!isValidVin(normalizedVin)) {
     throw new BadRequestException(
       "VIN must be 17 characters and cannot contain I, O, or Q."
     );
   }
 
   return normalizedVin;
+}
+
+export function isValidVin(value: string): boolean {
+  return VIN_PATTERN.test(normalizeVin(value));
 }

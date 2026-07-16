@@ -7,11 +7,11 @@ async function bootstrap() {
   const configService = app.get(ConfigService);
 
   const frontendOrigin =
-    configService.get<string>("FRONTEND_ORIGIN") ?? "http://localhost:3000";
+    configService.get<string>("FRONTEND_ORIGIN") ?? "http://localhost:3002";
   const port = Number(configService.get<string>("PORT") ?? 3001);
 
   app.enableCors({
-    origin: frontendOrigin
+    origin: frontendOrigin,
   });
 
   await app.listen(port);

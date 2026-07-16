@@ -411,14 +411,20 @@
           "articlesCount": 10
         }
       ],
-      "enableMissingPartForm": false,
-      "enableMissingPartFormFailed": false,
       "productsGroup": [
-        { "id": 402, "description": "Brake Pad Set, disc brake", "articlesCount": 16 },
+        {
+          "id": 402,
+          "description": "Brake Pad Set, disc brake",
+          "articlesCount": 16
+        },
         { "id": 82, "description": "Brake Disc", "articlesCount": 6 },
         { "id": 424, "description": "Filter, cabin air", "articlesCount": 5 },
         { "id": 8, "description": "Air Filter", "articlesCount": 2 },
-        { "id": 470, "description": "Radiator, engine cooling", "articlesCount": 1 },
+        {
+          "id": 470,
+          "description": "Radiator, engine cooling",
+          "articlesCount": 1
+        },
         { "id": 298, "description": "Wiper Blade", "articlesCount": 9 }
       ]
     },
@@ -460,13 +466,15 @@
           "articlesCount": 28
         }
       ],
-      "enableMissingPartForm": false,
-      "enableMissingPartFormFailed": false,
       "productsGroup": [
         { "id": 7, "description": "Oil Filter", "articlesCount": 2 },
         { "id": 8, "description": "Air Filter", "articlesCount": 2 },
         { "id": 424, "description": "Filter, cabin air", "articlesCount": 5 },
-        { "id": 402, "description": "Brake Pad Set, disc brake", "articlesCount": 14 },
+        {
+          "id": 402,
+          "description": "Brake Pad Set, disc brake",
+          "articlesCount": 14
+        },
         { "id": 82, "description": "Brake Disc", "articlesCount": 6 },
         { "id": 508, "description": "Fan, engine cooling", "articlesCount": 1 }
       ]
@@ -502,10 +510,13 @@
           "articlesCount": 24
         }
       ],
-      "enableMissingPartForm": false,
-      "enableMissingPartFormFailed": false,
+
       "productsGroup": [
-        { "id": 402, "description": "Brake Pad Set, disc brake", "articlesCount": 10 },
+        {
+          "id": 402,
+          "description": "Brake Pad Set, disc brake",
+          "articlesCount": 10
+        },
         { "id": 82, "description": "Brake Disc", "articlesCount": 4 },
         { "id": 424, "description": "Filter, cabin air", "articlesCount": 4 },
         { "id": 298, "description": "Wiper Blade", "articlesCount": 6 },
@@ -543,10 +554,13 @@
           "articlesCount": 7
         }
       ],
-      "enableMissingPartForm": false,
-      "enableMissingPartFormFailed": false,
+
       "productsGroup": [
-        { "id": 402, "description": "Brake Pad Set, disc brake", "articlesCount": 8 },
+        {
+          "id": 402,
+          "description": "Brake Pad Set, disc brake",
+          "articlesCount": 8
+        },
         { "id": 82, "description": "Brake Disc", "articlesCount": 3 },
         { "id": 424, "description": "Filter, cabin air", "articlesCount": 4 },
         { "id": 8, "description": "Air Filter", "articlesCount": 3 },

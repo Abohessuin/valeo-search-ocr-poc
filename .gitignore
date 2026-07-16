@@ -4,9 +4,11 @@ node_modules/
 frontend/.next/
 frontend/out/
 frontend/next-env.d.ts
+frontend/tsconfig.tsbuildinfo
 
 # Backend
 backend/dist/
+backend/tsconfig.tsbuildinfo
 
 # Env files
 .env
@@ -21,6 +23,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+.venv/
+__pycache__/
+.pytest_cache/
 .DS_Store
 Thumbs.db
 __MACOSX/

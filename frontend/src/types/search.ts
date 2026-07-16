@@ -3,7 +3,7 @@ export interface VehicleEngine {
   code: string;
 }
 
-export interface VehicleRecord {
+export interface VehicleSummary {
   id: number;
   manufacturerId: number;
   manufacturerName: string;
@@ -24,14 +24,12 @@ export interface VehicleRecord {
   capacityLiters: number;
   market: string;
   engines: VehicleEngine[];
-  productProfileId: string;
 }
 
-export type VehicleSummary = Omit<VehicleRecord, "productProfileId">;
-
-export interface VinRecord {
+export interface VinSearchResponse {
   vin: string;
-  vehicles: VehicleRecord[];
+  totalVehicles: number;
+  vehicles: VehicleSummary[];
 }
 
 export interface LineOfBusiness {
@@ -48,22 +46,8 @@ export interface ProductGroup {
   articlesCount: number;
 }
 
-export interface ProductProfile {
+export interface VehicleLineOfBusinessesResponse {
+  vehicle: VehicleSummary;
   lineOfBusinesses: LineOfBusiness[];
   productsGroup: ProductGroup[];
-}
-
-export interface VinDataset {
-  records: VinRecord[];
-  productProfiles: Record<string, ProductProfile>;
-}
-
-export interface VinSearchResponse {
-  vin: string;
-  totalVehicles: number;
-  vehicles: VehicleSummary[];
-}
-
-export interface VehicleLineOfBusinessesResponse extends ProductProfile {
-  vehicle: VehicleSummary;
 }

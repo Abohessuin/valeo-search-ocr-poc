@@ -66,3 +66,43 @@ Selecting one vehicle then loads line-of-business and product-group data:
 ```text
 GET http://localhost:3001/vehicles/100001/line-of-businesses
 ```
+
+OCR extracts raw text from an uploaded image, then NestJS extracts VIN candidates:
+
+```text
+POST http://localhost:3001/ocr/vin
+multipart field: image
+```
+
+## OCR Providers
+
+The backend supports two real OCR providers. VIN extraction always happens in NestJS, not inside the OCR provider.
+
+Local default:
+
+```env
+OCR_PROVIDER=paddle
+PADDLE_OCR_URL=http://localhost:8000
+PADDLE_OCR_TIMEOUT_MS=15000
+```
+
+Run PaddleOCR locally:
+
+```bash
+cd paddle-ocr-service
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install --upgrade pip setuptools wheel
+pip install -r requirements.txt
+python -m uvicorn main:app --host 0.0.0.0 --port 8000
+```
+
+Production/cloud option:
+
+```env
+OCR_PROVIDER=google
+GOOGLE_CLOUD_PROJECT=your-google-cloud-project-id
+GOOGLE_OCR_TIMEOUT_MS=15000
+```
+
+Google Cloud Vision uses Application Default Credentials. Do not embed or commit credentials. Configure ADC locally or in the deployment environment before using `OCR_PROVIDER=google`.

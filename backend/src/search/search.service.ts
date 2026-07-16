@@ -8,7 +8,7 @@ import {
   VehicleRecord,
   VehicleSummary,
   VinDataset,
-  VinSearchResponse
+  VinSearchResponse,
 } from "./search.types";
 
 @Injectable()
@@ -23,14 +23,14 @@ export class SearchService {
   searchByVin(vin: string): VinSearchResponse {
     const normalizedVin = assertValidVin(vin);
     const record = this.dataset.records.find(
-      (entry) => entry.vin === normalizedVin
+      (entry) => entry.vin === normalizedVin,
     );
 
     if (!record) {
       return {
         vin: normalizedVin,
         totalVehicles: 0,
-        vehicles: []
+        vehicles: [],
       };
     }
 
@@ -38,8 +38,8 @@ export class SearchService {
       vin: normalizedVin,
       totalVehicles: record.vehicles.length,
       vehicles: record.vehicles.map((vehicle) =>
-        this.toVehicleSummary(vehicle)
-      )
+        this.toVehicleSummary(vehicle),
+      ),
     };
   }
 
@@ -50,9 +50,7 @@ export class SearchService {
     return {
       vehicle: this.toVehicleSummary(vehicle),
       lineOfBusinesses: profile.lineOfBusinesses,
-      enableMissingPartForm: profile.enableMissingPartForm,
-      enableMissingPartFormFailed: profile.enableMissingPartFormFailed,
-      productsGroup: profile.productsGroup
+      productsGroup: profile.productsGroup,
     };
   }
 
@@ -73,7 +71,7 @@ export class SearchService {
 
     if (!profile) {
       throw new NotFoundException(
-        `Product profile ${productProfileId} was not found.`
+        `Product profile ${productProfileId} was not found.`,
       );
     }
 
